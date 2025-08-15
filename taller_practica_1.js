@@ -8,10 +8,10 @@ function ContarStrings(lista) {
 
     for (let i = 0; i < lista.length; i++) {
         if (lista[i].length > 25) {
-            contador++;
+            contador++
         }
     }
-    return contador;
+    return contador
 }
 
 /*
@@ -222,3 +222,4 @@ function BusquedaBinaria(lista, objetivo) {
 console.log(BusquedaBinaria([1, 3, 5, 7, 9], 7)) // 7
 console.log(BusquedaBinaria([1, 3, 5, 7, 9], 4)) // null
 */
+
