@@ -8,7 +8,7 @@ function convertidorTemp(tc) {
 // Punto 2 - resolvedor
 function resolvedor(a, b, c, sel) {
     let xp = (-b + (Math.sqrt(b ** 2 - 4 * a * c))) / (2 * a)
-    let xn = (-b - ((b ** 2 - 4 * a * c))) / (2 * a)
+    let xn = (-b - (Math.sqrt(b ** 2 - 4 * a * c))) / (2 * a)
 
     if (sel === 0) {
         return xp
