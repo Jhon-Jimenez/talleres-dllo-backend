@@ -9,16 +9,16 @@ Repositorio para los talleres y actividades de la materia **Desarrollo de Aplica
 ## Estructura del proyecto
 
 ```
-taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos
+taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos como pratica para el Parcial
 taller-01.js           # Taller 01: Ejercicios básicos de JavaScript
 taller-02.js           # Taller 02: Funciones y manipulación de listas
-taller-03.js           # Taller 03: Funciones y manipulación de arrays/objetos
+taller-03.js           # Taller 03: Funciones y manipulación de arrays
 README.md              # Documentación del repositorio
 ```
 
 ## Descripción
 
-Este repositorio contiene soluciones a ejercicios y talleres enfocados en el aprendizaje de JavaScript para el desarrollo backend. Los archivos incluyen funciones para resolver problemas comunes de lógica, manipulación de listas y algoritmos básicos.
+Este repositorio contiene soluciones a ejercicios y talleres enfocados en el aprendizaje de lenguajes como JavaScript para el desarrollo Backend. Los archivos incluyen funciones para resolver problemas comunes de lógica, manipulación de listas y algoritmos básicos variados propuestos en clase.
 
 ## Ejecución
 
