@@ -12,7 +12,7 @@ Repositorio para los talleres y actividades de la materia **Desarrollo de Aplica
 taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos
 taller-01.js           # Taller 01: Ejercicios básicos de JavaScript
 taller-02.js           # Taller 02: Funciones y manipulación de listas
-taller-03.js           # Taller 03: Funciones variadas de js
+taller-03.js           # Taller 03: Funciones y manipulación de arrays/objetos
 README.md              # Documentación del repositorio
 ```
 
