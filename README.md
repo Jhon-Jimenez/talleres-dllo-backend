@@ -10,7 +10,7 @@ Repositorio para los talleres y actividades de la materia **Desarrollo de Aplica
 
 ```
 taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos como pratica para el Parcial 1
-taller_practica_2.js   # Ejercicios prácticos de arrays sin ciclos como pratica para el Parcial 2
+taller_practica_2.js   # Ejercicios prácticos de arrays sin ciclos como practica para el Parcial 2
 taller-01.js           # Taller 01: Ejercicios básicos de JavaScript
 taller-02.js           # Taller 02: Funciones y manipulación de listas
 taller-03.js           # Taller 03: Funciones y manipulación de arrays
