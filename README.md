@@ -9,7 +9,8 @@ Repositorio para los talleres y actividades de la materia **Desarrollo de Aplica
 ## Estructura del proyecto
 
 ```
-taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos como pratica para el Parcial
+taller_practica_1.js   # Ejercicios prácticos de lógica y algoritmos como pratica para el Parcial 1
+taller_practica_2.js   # Ejercicios prácticos de arrays sin ciclos como pratica para el Parcial 2
 taller-01.js           # Taller 01: Ejercicios básicos de JavaScript
 taller-02.js           # Taller 02: Funciones y manipulación de listas
 taller-03.js           # Taller 03: Funciones y manipulación de arrays
@@ -26,6 +27,7 @@ Puedes ejecutar los archivos `.js` usando Node.js desde la terminal:
 
 ```sh
 node taller_practica_1.js
+node taller_practica_2.js
 node taller-01.js
 node taller-02.js
 node taller-03.js
@@ -37,4 +39,3 @@ Para dudas o sugerencias, puedes contactarme por GitHub.
 
 ---
 ¡Gracias por visitar mi repositorio!
-Nombre: Jhon Jimenez Zuleta

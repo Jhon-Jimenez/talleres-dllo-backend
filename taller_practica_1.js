@@ -1,4 +1,4 @@
-// Ejercicios de Practica 01
+// Ejercicios de Practica para el Parcial 1
 
 // 1.Desarrolle una función que reciba una lista de strings, 
 // y retorne la cantidad de strings con longitud mayor a 25 caracteres.
