@@ -1,0 +1,35 @@
+{
+  "name": "talleres-dllo-backend",
+  "version": "1.0.0",
+  "description": "Repositorio para los talleres y actividades de la materia **Desarrollo de Aplicaciones Web Backend**.",
+  "main": "taller-01.js",
+  "scripts": {
+  "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhon-Jimenez/talleres-dllo-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jhon-Jimenez/talleres-dllo-backend/issues"
+  },
+  "homepage": "https://github.com/Jhon-Jimenez/talleres-dllo-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
