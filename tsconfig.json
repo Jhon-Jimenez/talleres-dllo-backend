@@ -1,48 +1,35 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "CommonJS",
-    "target": "ES2020",
-    "outDir": "dist",
+    // Carpetas
     "rootDir": "src",
-    "types": [],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
+    "outDir": "dist",
 
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
-    "strict": true,
-    "jsx": "react-jsx",
+    // Entorno y módulo
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
+
+    // Tipos y librerías
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    // Archivos generados
+    "sourceMap": true,
+    "declaration": false,
+
+    // Reglas de chequeo (seguras, pero sin exagerar)
+    "strict": true,
     "skipLibCheck": true,
-  }
+
+    // Desactiva opciones problemáticas para backend
+    "verbatimModuleSyntax": false,
+    "isolatedModules": false,
+
+    // Detección de módulos
+    "moduleDetection": "force"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

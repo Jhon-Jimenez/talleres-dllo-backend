@@ -2,7 +2,7 @@
 
 // En la variable `datos` se encuentran los datos del archivo `15-datos-parcial-01.json`
 
-const datos = require("./15-datos-parcial-01.json");
+const datos = require("../15-datos-parcial-01.json");
 
 console.log("Estudiante original")
 console.log(datos[120])
