@@ -73,8 +73,7 @@ Cada taller cuenta con sus propios endpoints de tipo **POST**, siguiendo la conv
 Todos los parámetros se envían en el **body** del request en formato **JSON**.  
 Ejemplo de uso con Thunder Client o Postman:
 
-```json
-POST http://localhost:8080/api/v1/taller1/convertidor-temp
+http://localhost:8080/api/v1/taller1/convertidor-temp
 {
   "tc": 25
 }
