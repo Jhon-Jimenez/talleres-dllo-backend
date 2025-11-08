@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    // Carpetas
+    "rootDir": "src",
+    "outDir": "dist",
+
+    // Entorno y módulo
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Tipos y librerías
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    // Archivos generados
+    "sourceMap": true,
+    "declaration": false,
+
+    // Reglas de chequeo (seguras, pero sin exagerar)
+    "strict": true,
+    "skipLibCheck": true,
+
+    // Desactiva opciones problemáticas para backend
+    "verbatimModuleSyntax": false,
+    "isolatedModules": false,
+
+    // Detección de módulos
+    "moduleDetection": "force"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
